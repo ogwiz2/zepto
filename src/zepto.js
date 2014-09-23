@@ -205,7 +205,7 @@ var Zepto = (function() {
       // If there's a context, create a collection on that context first, and select
       // nodes from there
       else if (context !== undefined) return $(context).find(selector)
-      // And last but no least, if it's a CSS selector, use it to select nodes.
+      // And last but not least, if it's a CSS selector, use it to select nodes.
       else dom = zepto.qsa(document, selector)
     }
     // create a new Zepto collection from the nodes found
